@@ -1,0 +1,134 @@
+.pay{
+    height: 700px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.pay-header-title{
+font-size: 2em;
+color: rgb(255, 153, 58);
+}
+
+.pay-body-current{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+width: 400px;
+}
+
+.pay-body-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.pay-info{
+    font-size: 10px;
+    margin-bottom: -10px;
+}
+
+.pay-button{
+    background-color: rgb(63, 63, 63);
+    margin-top: 20px;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+}
+
+.pay-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-footer{
+    margin-top: 20px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(255, 153, 58);
+}
+
+.btn-footer:hover{
+    background-color: rgb(224, 108, 0);
+    transition: 0.2s;
+}
+
+.pay-com{
+    font-weight: 100;
+    color: rgb(202, 202, 202);
+}
+
+.pay-checkbox-one{
+    position: absolute;
+    margin-left: -20px;
+    margin-bottom: 80px;
+}
+
+.pay-checkbox-two{
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 50px;
+}
+
+.pay-list{
+    width: 250px;
+    border-radius: 5px;
+    height: 2em;
+    border: 1px solid gray;
+}
+
+.pay-stack{
+    width: 250px;
+    border-radius: 5px;  
+    height: 2em;
+    border: 1px solid gray;
+}
+
+.pay-end{
+    width: 250px;
+    border-radius: 5px;  
+    height: 2em;
+    border: 1px solid gray;
+}
+
+.pay-body-crypto{
+    display: flex;
+}
+
+.pay-list{
+    width:3.8em;
+    border: 1px solid gray;
+}
+
+.pay-price{
+    margin-left: 3px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.pay-sum{
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.pay-sum:hover{
+    background-color: rgb(199, 199, 199);
+    transition: 0.3s;
+}

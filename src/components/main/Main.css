@@ -1,0 +1,50 @@
+.main_section{
+    padding: 80px 0px 30px 85px;
+    height:100%;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+}
+
+.main_section_infoplace{
+max-width: 650px;
+margin-bottom: 15px;
+}
+
+.info_place{
+    color: white;
+    font-size: 3.3em;
+    margin-bottom: 30px;
+}
+
+.reg_but{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 153, 58) ;
+    padding: 5px;
+    border-radius: 10px;
+    width: 13em;
+    cursor: pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 30px;
+    font-size: 1.8em;
+
+}
+
+.reg_but:hover{
+    background-color: rgb(255, 145, 42);
+}
+
+h2{
+    color: gray;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.img_eth{
+    margin-top: -50px;
+    margin-left: 100px;
+}
+
+

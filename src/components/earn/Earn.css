@@ -1,0 +1,27 @@
+.earn{
+margin-top: 100px;
+color: white;
+width: 600px;
+margin: 0 auto;
+line-height: 30px;
+}
+
+h1{
+    color: rgb(196, 193, 193);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+.alert{
+    color: gray;
+}
+
+span{
+    color: brown;
+}
+
+.earn-list-about{
+    text-decoration: double;
+    display: block;
+}
