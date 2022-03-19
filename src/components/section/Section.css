@@ -33,6 +33,7 @@ td{
     padding-left: 50px;
     padding-bottom: 20px;
     font-size: 0.9em;
+    cursor: pointer;
 }
 
 .section__table_cryptoChange{
