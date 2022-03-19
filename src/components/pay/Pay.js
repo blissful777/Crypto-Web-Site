@@ -17,16 +17,15 @@ export default class Pay extends Component {
     usdtPrice: Number,
     quantity: '',
     finalCurrency: '',
+    allCurrency: []
   }
 
   checkQuantity = (e) => {
     this.setState({ quantity: e.target.value })  
-    console.log(this.state.quantity) 
 }
 
 getSum = () => {
   this.setState({finalCurrency : this.state.quantity * Math.floor(this.state.btcPrice * 100)/100})
-  
 }
 
      getData = () => {  
@@ -56,7 +55,8 @@ getSum = () => {
       bnbPrice: json.data.coins[3].price,
       usdtPrice: json.data.coins[2].price,
     });
-          console.log(json.data);               
+          console.log(json.data); 
+          console.log(this.state.allCurrency)              
         });
       }
     })
